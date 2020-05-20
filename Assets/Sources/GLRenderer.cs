@@ -33,14 +33,8 @@ public class GLRenderer : MonoBehaviour
 
         foreach (var pose in poses)
         {
-            //DrawResults(poses);
-            if (pose.score >= minPoseConfidence)
-            {
-                //DrawKeypoint(pose.keypoints,
-                //    minPoseConfidence, 0.02f);
                 DrawSkeleton(pose.keypoints,
                     minPoseConfidence, 0.02f);
-            }
         }
 
         GL.End();
@@ -48,12 +42,8 @@ public class GLRenderer : MonoBehaviour
 
         foreach (var pose in poses)
         {
-            //DrawResults(poses);
-            if (pose.score >= minPoseConfidence)
-            {
                 DrawKeypoint(pose.keypoints,
                     minPoseConfidence, 0.02f);
-            }
         }
     }
 
