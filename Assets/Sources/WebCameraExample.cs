@@ -7,7 +7,7 @@ public class WebCameraExample : MonoBehaviour {
 
     public int Width = 512;
     public int Height = 512;
-    public int FPS = 30;
+    public int FPS = 10;
     WebCamTexture webcamTexture;
     GLRenderer gl;
     int ImageSize = 512;

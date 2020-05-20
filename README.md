@@ -15,7 +15,7 @@
 * Using TensorFlowSharp 1.7
   * [Using TensorFlowSharp in Unity (Experimental)](https://github.com/Unity-Technologies/ml-agents/blob/develop/docs/Using-TensorFlow-Sharp-in-Unity.md)
 
-  * Get: https://s3.amazonaws.com/unity-ml-agents/0.4/TFSharpPlugin.unitypackage
+  * Get: https://s3.amazonaws.com/unity-ml-agents/0.6/TFSharpPlugin.unitypackage
 
 ## Dependencies
 
